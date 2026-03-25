@@ -28,23 +28,29 @@
 
     <!-- navbar -->
     <header class="bg-[#fffbf0] container mx-auto py-4 relative">
-        <nav class="flex justify-between items-center">
+        <nav class="justify-between items-center hidden md:flex">
             <img src="assist/icons/logo.png" alt="Logo" class="w-[225px] h-[31px]">
-            <ul class="flex items-center font-semibold gap-3.5">
+            <ul class="space-x-1.5 items-center  font-semibold gap-x-10">
                 <il>Home</il>
                 <il>Product</il>
                 <il>About Us</il>
                 <il>Contact Us</il>
             </ul>
         </nav>
-        <img src="assist/icons/groupdot.png" alt="" class="absolute top-[-70px] left-120">
+
+        <img src="assist/icons/groupdot.png" alt="" class="hidden md:flex absolute top-[-70px] left-130">
+
+        <span class="block md:hidden absolute top-[10px] right-10 text-2xl">
+            <i class="fa-solid fa-bars"></i>
+        </span>
     </header>
 
     <!-- banner section -->
     <section class="flex justify-between items-center gap-4 bg-[#fffbf0] min-h-[85vh] container mx-auto">
-        <div>
-            <h2 class="text-[70px] uppercase font-bold leading-[80px] tracking-tighter[---tracking-2]"> <span
-                    class="text-[#FABE4C]">Be the
+        <div class="hidden md:block">
+            <h2
+                class="text-[70px] uppercase font-bold md:leading-[60px] xl:leading-[85px] tracking-tighter[---tracking-2]">
+                <span class="text-[#FABE4C]">Be the
                     Penguins</span><br>
                 <span class="text-[#363958]">of Winter</span>
             </h2>
@@ -53,11 +59,150 @@
             </P>
             <button
                 class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
-                        class="fa-solid fa-cart-arrow-down"></i></span>BUY
+                        class="fa-solid fa-cart-arrow-down"></i></span> BUY
                 NOW</button>
         </div>
         <div>
             <img src="assist/images/model.png" alt="">
+        </div>
+    </section>
+
+    <!-- W0Man Jacket Section -->
+
+    <div class="container mx-auto justify-center items-center">
+        <h3 class="text-[40px] text-[#363958] items-center my-4">W0Man Jacket</h3>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 container mx-auto my-[70px]">
+            <!-- cart-1 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-1.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+            <!-- cart-2 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-2.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+            <!-- cart-3 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-3.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- Man Jacket Section -->
+    <div class="container mx-auto justify-center items-center">
+        <h3 class="text-[40px] text-[#363958] items-center my-4">Man Jacket</h3>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 container mx-auto my-[70px]">
+            <!-- cart-1 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-4.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+            <!-- cart-2 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-5.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+            <!-- cart-3 -->
+            <div
+                class="w-[370px] h-[550px] my-2.5 p-6 border-2 rounded-2xl bg-gray-45 drop-shadow-lg justify-center items-center">
+                <img src="assist/images/jacket-6.png" alt=""
+                    class="bg-gray-50 rounded-[10px] w-[293px] h-[293px] py-[10px] px-[10px] my-2">
+                <h4 class="text-2xl font-black text-[#363958] my-3.5">Yellow Coat Jacket </h4>
+                <P class=" text-[16px] text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</P>
+                <div class="flex justify-between items-center my-4">
+                    <h4 class="text-[#FABE4C] text-[26px] lg:text-[36px] font-bold">$234</h4>
+                    <button
+                        class="w-[170px] h-[60px] bg-gradient-to-r from-[#85A019] to-[#A4BC46] text-white rounded-[10px] inline-block my-3.5"><span><i
+                                class="fa-solid fa-cart-arrow-down cours"></i></span> BUY
+                        NOW</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- Contact Our Seller Section -->
+    <section class="flex container mx-auto my-[70px] gap-[83px]">
+        <div class="flex w-[489px] h-[135px] gap-[36px]">
+            <img src="assist/icons/house.png" alt="" class="w-[78px] h-[83px]">
+            <div>
+                <h3 class="text-2xl text-[#363958]">Find the Perfect Fit</h3>
+                <p class="text[#3E3E3E] text-[16px]">Everybody is different, which is why we<br>
+                    offer styles for every body.</p>
+            </div>
+
+        </div>
+
+        <!-- image container -->
+        <div>
+            <img src="assist/images/shopping.png" alt="" class="w-[599px] h-[355px]">
         </div>
     </section>
 
